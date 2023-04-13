@@ -7,11 +7,11 @@ def read_input():
         file_name = "tests/06"
         with open(file_name) as f:
             text = f.readlines()
-            T = text[0].strip()
-            P = text[1].strip()
+            P = text[0].strip()
+            T = text[1].strip()
     elif  "I" in input_type:
-        T = input().strip()
         P = input().strip()
+        T = input().strip()
     else:
         print("Invalid input type.")
         return
